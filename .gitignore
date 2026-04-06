@@ -1,0 +1,16 @@
+# AnyLogic specific
+/database/db.lck
+/database/db.script
+/database/db.properties
+/database/db.data
+/database/db.log
+/out/
+/build/
+*.tmp
+*.log
+
+# Java/IDE specific
+bin/
+.settings/
+.classpath
+.project
