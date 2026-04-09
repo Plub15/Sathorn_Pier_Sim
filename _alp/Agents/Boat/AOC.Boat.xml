@@ -24,8 +24,8 @@
 		<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
 		<RotateAnimationVertically>false</RotateAnimationVertically>
 		<VelocityCode Class="CodeUnitValue">
-			<Code><![CDATA[10]]></Code>
-			<Unit Class="SpeedUnits">MPS</Unit>
+			<Code><![CDATA[20]]></Code>
+			<Unit Class="SpeedUnits">KPH</Unit>
 		</VelocityCode>
 		<PhysicalLength Class="CodeUnitValue">
 			<Code><![CDATA[1]]></Code>
@@ -93,6 +93,7 @@
 	</ScaleRuler>
 	<CurrentLevel>1775479368593</CurrentLevel>
 	<ConnectionsId>1775479368588</ConnectionsId>
+	<Variables xmlns:al="http://anylogic.com"/>
 	<AgentLinks>
 		<AgentLink>
 			<Id>1775479368588</Id>
