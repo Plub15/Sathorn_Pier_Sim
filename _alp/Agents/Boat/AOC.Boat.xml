@@ -24,7 +24,7 @@
 		<RotateAnimationTowardsMovement>true</RotateAnimationTowardsMovement>
 		<RotateAnimationVertically>false</RotateAnimationVertically>
 		<VelocityCode Class="CodeUnitValue">
-			<Code><![CDATA[20]]></Code>
+			<Code><![CDATA[13]]></Code>
 			<Unit Class="SpeedUnits">KPH</Unit>
 		</VelocityCode>
 		<PhysicalLength Class="CodeUnitValue">

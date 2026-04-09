@@ -3,8 +3,8 @@
 	<EmbeddedObject>
 		<Id>1775474860777</Id>
 		<Name><![CDATA[iconPedSource]]></Name>
-		<X>16.4</X>
-		<Y>474.4</Y>
+		<X>0</X>
+		<Y>450</Y>
 		<Label>
 			<X>-25</X>
 			<Y>-35</Y>
@@ -190,8 +190,8 @@
 	<EmbeddedObject>
 		<Id>1775474929808</Id>
 		<Name><![CDATA[iconBoard]]></Name>
-		<X>350</X>
-		<Y>460</Y>
+		<X>280</X>
+		<Y>440</Y>
 		<Label>
 			<X>-20</X>
 			<Y>-25</Y>
@@ -280,8 +280,8 @@
 	<EmbeddedObject>
 		<Id>1775476872508</Id>
 		<Name><![CDATA[pedService]]></Name>
-		<X>140</X>
-		<Y>460</Y>
+		<X>80</X>
+		<Y>440</Y>
 		<Label>
 			<X>-25</X>
 			<Y>-25</Y>
@@ -377,8 +377,8 @@
 	<EmbeddedObject>
 		<Id>1775478772603</Id>
 		<Name><![CDATA[iconBoat]]></Name>
-		<X>10</X>
-		<Y>335</Y>
+		<X>0</X>
+		<Y>340</Y>
 		<Label>
 			<X>-5</X>
 			<Y>-25</Y>
@@ -517,6 +517,10 @@
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[speed]]></Name>
+				<Value Class="CodeUnitValue">
+					<Code><![CDATA[14]]></Code>
+					<Unit Class="SpeedUnits">KPH</Unit>
+				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[newEntity]]></Name>
@@ -633,7 +637,7 @@
 	<EmbeddedObject>
 		<Id>1775479480444</Id>
 		<Name><![CDATA[Boarding]]></Name>
-		<X>210</X>
+		<X>280</X>
 		<Y>330</Y>
 		<Label>
 			<X>-5</X>
@@ -730,8 +734,8 @@
 	<EmbeddedObject>
 		<Id>1775482606048</Id>
 		<Name><![CDATA[moveTo]]></Name>
-		<X>85</X>
-		<Y>340</Y>
+		<X>80</X>
+		<Y>330</Y>
 		<Label>
 			<X>-10</X>
 			<Y>-10</Y>
@@ -837,14 +841,11 @@
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[setSpeed]]></Name>
-				<Value Class="CodeValue">
-					<Code><![CDATA[true]]></Code>
-				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[speed]]></Name>
 				<Value Class="CodeUnitValue">
-					<Code><![CDATA[20]]></Code>
+					<Code><![CDATA[15]]></Code>
 					<Unit Class="SpeedUnits">KPH</Unit>
 				</Value>
 			</Parameter>
@@ -887,7 +888,7 @@
 	<EmbeddedObject>
 		<Id>1775482685272</Id>
 		<Name><![CDATA[moveTo1]]></Name>
-		<X>430</X>
+		<X>480</X>
 		<Y>330</Y>
 		<Label>
 			<X>-10</X>
@@ -1031,7 +1032,7 @@
 	<EmbeddedObject>
 		<Id>1775482707482</Id>
 		<Name><![CDATA[sink]]></Name>
-		<X>530</X>
+		<X>600</X>
 		<Y>340</Y>
 		<Label>
 			<X>-10</X>
@@ -1085,8 +1086,8 @@
 	<EmbeddedObject>
 		<Id>1775483508702</Id>
 		<Name><![CDATA[pedWait]]></Name>
-		<X>240</X>
-		<Y>460</Y>
+		<X>180</X>
+		<Y>440</Y>
 		<Label>
 			<X>-10</X>
 			<Y>-20</Y>
@@ -1208,8 +1209,8 @@
 	<EmbeddedObject>
 		<Id>1775484044382</Id>
 		<Name><![CDATA[pedExit]]></Name>
-		<X>470</X>
-		<Y>460</Y>
+		<X>380</X>
+		<Y>440</Y>
 		<Label>
 			<X>-5</X>
 			<Y>-25</Y>
@@ -1265,8 +1266,8 @@
 	<EmbeddedObject>
 		<Id>1775484054592</Id>
 		<Name><![CDATA[queue]]></Name>
-		<X>540</X>
-		<Y>450</Y>
+		<X>480</X>
+		<Y>430</Y>
 		<Label>
 			<X>-5</X>
 			<Y>-10</Y>
@@ -1364,7 +1365,7 @@
 	<EmbeddedObject>
 		<Id>1775484094420</Id>
 		<Name><![CDATA[pickup]]></Name>
-		<X>300</X>
+		<X>380</X>
 		<Y>330</Y>
 		<Label>
 			<X>-5</X>
@@ -1449,8 +1450,8 @@
 	<EmbeddedObject>
 		<Id>1775721235310</Id>
 		<Name><![CDATA[Unboarding]]></Name>
-		<X>150</X>
-		<Y>360</Y>
+		<X>180</X>
+		<Y>330</Y>
 		<Label>
 			<X>-42</X>
 			<Y>50</Y>
@@ -1547,7 +1548,7 @@ IconPedArrival.inject(iconUnboarding);]]></Code>
 	<EmbeddedObject>
 		<Id>1775722147413</Id>
 		<Name><![CDATA[IconPedArrival]]></Name>
-		<X>20</X>
+		<X>0</X>
 		<Y>550</Y>
 		<Label>
 			<X>-30</X>
@@ -1570,12 +1571,12 @@ IconPedArrival.inject(iconUnboarding);]]></Code>
 		<Parameters>
 			<Parameter>
 				<Name><![CDATA[locationType]]></Name>
-				<Value Class="CodeValue">
-					<Code><![CDATA[self.LOCATION_NODE]]></Code>
-				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[locationLine]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[iconAri]]></Code>
+				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[level]]></Name>
@@ -1700,6 +1701,13 @@ IconPedArrival.inject(iconUnboarding);]]></Code>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[onExit]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[iconUnboarding--;
+
+if( iconUnboarding <= 0 ) {
+Unboarding.stopDelayForAll();
+}]]></Code>
+				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[onBeginGrouping]]></Name>
@@ -1734,7 +1742,7 @@ IconPedArrival.inject(iconUnboarding);]]></Code>
 	<EmbeddedObject>
 		<Id>1775722554126</Id>
 		<Name><![CDATA[IconLeave]]></Name>
-		<X>130</X>
+		<X>280</X>
 		<Y>540</Y>
 		<Label>
 			<X>-25</X>
@@ -1787,13 +1795,6 @@ IconPedArrival.inject(iconUnboarding);]]></Code>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[onEnter]]></Name>
-				<Value Class="CodeValue">
-					<Code><![CDATA[iconUnboarding--;
-
-if( iconUnboarding <= 0 ) {
-Unboarding.stopDelayForAll();
-}]]></Code>
-				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[onExit]]></Name>
@@ -1831,7 +1832,7 @@ Unboarding.stopDelayForAll();
 	<EmbeddedObject>
 		<Id>1775722691085</Id>
 		<Name><![CDATA[pedSink]]></Name>
-		<X>280</X>
+		<X>350</X>
 		<Y>550</Y>
 		<Label>
 			<X>-30</X>

@@ -143,6 +143,42 @@
 			</Intervals>
 			<Exceptions/>
 		</Schedule>
+		<Schedule>
+			<Id>1775751017223</Id>
+			<Name><![CDATA[schedule]]></Name>
+			<X>20</X>
+			<Y>620</Y>
+			<Label>
+				<X>10</X>
+				<Y>0</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<ValueType>double_</ValueType>
+			<UnitType>NONE</UnitType>
+			<DefaultValue>0.0</DefaultValue>
+			<RepresentationMode>intervals</RepresentationMode>
+			<RepresentationType>week</RepresentationType>
+			<FirstDayOfWeek>sunday</FirstDayOfWeek>
+			<TimeUnitsInterval>hours</TimeUnitsInterval>
+			<RepeatTime>86400000</RepeatTime>
+			<RepeatTimeInterval>days</RepeatTimeInterval>
+			<IsSnapTo>false</IsSnapTo>
+			<SnapTo>1775751016753</SnapTo>
+			<SnapToTimeUnits>minutes</SnapToTimeUnits>
+			<AllDayExceptionMode>false</AllDayExceptionMode>
+			<LoadFromDatabase>false</LoadFromDatabase>
+			<IntervalsQuery>
+				<Id>1775751017221</Id>
+				<TableReference/>
+				<StartColumnReference/>
+				<EndColumnReference/>
+				<ValueColumnReference/>
+			</IntervalsQuery>
+			<Intervals/>
+			<Exceptions/>
+		</Schedule>
 	</Schedules>
 	<AgentLinks>
 		<AgentLink>
