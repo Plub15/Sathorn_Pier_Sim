@@ -3,7 +3,7 @@
 	<EmbeddedObject>
 		<Id>1775474860777</Id>
 		<Name><![CDATA[iconPedSource]]></Name>
-		<X>0</X>
+		<X>30</X>
 		<Y>450</Y>
 		<Label>
 			<X>-25</X>
@@ -190,7 +190,7 @@
 	<EmbeddedObject>
 		<Id>1775474929808</Id>
 		<Name><![CDATA[iconBoard]]></Name>
-		<X>280</X>
+		<X>330</X>
 		<Y>440</Y>
 		<Label>
 			<X>-20</X>
@@ -280,7 +280,7 @@
 	<EmbeddedObject>
 		<Id>1775476872508</Id>
 		<Name><![CDATA[pedService]]></Name>
-		<X>80</X>
+		<X>130</X>
 		<Y>440</Y>
 		<Label>
 			<X>-25</X>
@@ -377,7 +377,7 @@
 	<EmbeddedObject>
 		<Id>1775478772603</Id>
 		<Name><![CDATA[iconBoat]]></Name>
-		<X>0</X>
+		<X>30</X>
 		<Y>340</Y>
 		<Label>
 			<X>-5</X>
@@ -637,7 +637,7 @@
 	<EmbeddedObject>
 		<Id>1775479480444</Id>
 		<Name><![CDATA[Boarding]]></Name>
-		<X>280</X>
+		<X>330</X>
 		<Y>330</Y>
 		<Label>
 			<X>-5</X>
@@ -734,7 +734,7 @@
 	<EmbeddedObject>
 		<Id>1775482606048</Id>
 		<Name><![CDATA[moveTo]]></Name>
-		<X>80</X>
+		<X>130</X>
 		<Y>330</Y>
 		<Label>
 			<X>-10</X>
@@ -888,7 +888,7 @@
 	<EmbeddedObject>
 		<Id>1775482685272</Id>
 		<Name><![CDATA[moveTo1]]></Name>
-		<X>480</X>
+		<X>530</X>
 		<Y>330</Y>
 		<Label>
 			<X>-10</X>
@@ -1032,7 +1032,7 @@
 	<EmbeddedObject>
 		<Id>1775482707482</Id>
 		<Name><![CDATA[sink]]></Name>
-		<X>600</X>
+		<X>650</X>
 		<Y>340</Y>
 		<Label>
 			<X>-10</X>
@@ -1085,8 +1085,8 @@
 	</EmbeddedObject>
 	<EmbeddedObject>
 		<Id>1775483508702</Id>
-		<Name><![CDATA[pedWait]]></Name>
-		<X>180</X>
+		<Name><![CDATA[iconWait]]></Name>
+		<X>230</X>
 		<Y>440</Y>
 		<Label>
 			<X>-10</X>
@@ -1166,7 +1166,7 @@
 				<Name><![CDATA[onBeginWait]]></Name>
 				<Value Class="CodeValue">
 					<Code><![CDATA[if (iconBoatAtDock == true) {
-    pedWait.freeAll();
+    iconWait.freeAll();
 }]]></Code>
 				</Value>
 			</Parameter>
@@ -1209,7 +1209,7 @@
 	<EmbeddedObject>
 		<Id>1775484044382</Id>
 		<Name><![CDATA[pedExit]]></Name>
-		<X>380</X>
+		<X>430</X>
 		<Y>440</Y>
 		<Label>
 			<X>-5</X>
@@ -1266,7 +1266,7 @@
 	<EmbeddedObject>
 		<Id>1775484054592</Id>
 		<Name><![CDATA[queue]]></Name>
-		<X>480</X>
+		<X>530</X>
 		<Y>430</Y>
 		<Label>
 			<X>-5</X>
@@ -1289,6 +1289,9 @@
 		<Parameters>
 			<Parameter>
 				<Name><![CDATA[capacity]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[120]]></Code>
+				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[maximumCapacity]]></Name>
@@ -1365,7 +1368,7 @@
 	<EmbeddedObject>
 		<Id>1775484094420</Id>
 		<Name><![CDATA[pickup]]></Name>
-		<X>380</X>
+		<X>430</X>
 		<Y>330</Y>
 		<Label>
 			<X>-5</X>
@@ -1450,11 +1453,11 @@
 	<EmbeddedObject>
 		<Id>1775721235310</Id>
 		<Name><![CDATA[Unboarding]]></Name>
-		<X>180</X>
+		<X>230</X>
 		<Y>330</Y>
 		<Label>
-			<X>-42</X>
-			<Y>50</Y>
+			<X>-15</X>
+			<Y>-20</Y>
 		</Label>
 		<PublicFlag>false</PublicFlag>
 		<PresentationFlag>true</PresentationFlag>
@@ -1509,7 +1512,7 @@
 				<Name><![CDATA[onEnter]]></Name>
 				<Value Class="CodeValue">
 					<Code><![CDATA[iconUnboarding = agent.passengersOnBoat;
-IconPedArrival.inject(iconUnboarding);]]></Code>
+IconPedArrival.inject(1);]]></Code>
 				</Value>
 			</Parameter>
 			<Parameter>
@@ -1548,7 +1551,7 @@ IconPedArrival.inject(iconUnboarding);]]></Code>
 	<EmbeddedObject>
 		<Id>1775722147413</Id>
 		<Name><![CDATA[IconPedArrival]]></Name>
-		<X>0</X>
+		<X>30</X>
 		<Y>550</Y>
 		<Label>
 			<X>-30</X>
@@ -1701,13 +1704,6 @@ IconPedArrival.inject(iconUnboarding);]]></Code>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[onExit]]></Name>
-				<Value Class="CodeValue">
-					<Code><![CDATA[iconUnboarding--;
-
-if( iconUnboarding <= 0 ) {
-Unboarding.stopDelayForAll();
-}]]></Code>
-				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[onBeginGrouping]]></Name>
@@ -1742,7 +1738,7 @@ Unboarding.stopDelayForAll();
 	<EmbeddedObject>
 		<Id>1775722554126</Id>
 		<Name><![CDATA[IconLeave]]></Name>
-		<X>280</X>
+		<X>230</X>
 		<Y>540</Y>
 		<Label>
 			<X>-25</X>
@@ -1832,7 +1828,7 @@ Unboarding.stopDelayForAll();
 	<EmbeddedObject>
 		<Id>1775722691085</Id>
 		<Name><![CDATA[pedSink]]></Name>
-		<X>350</X>
+		<X>340</X>
 		<Y>550</Y>
 		<Label>
 			<X>-30</X>
@@ -1875,6 +1871,103 @@ Unboarding.stopDelayForAll();
 		<InitializationType>SPECIFIED_NUMBER</InitializationType>
 		<InitializationDatabaseTableQuery>
 			<Id>1775722691083</Id>
+			<TableReference/>
+		</InitializationDatabaseTableQuery>
+		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+		<QuantityColumn/>
+	</EmbeddedObject>
+	<EmbeddedObject>
+		<Id>1776364186741</Id>
+		<Name><![CDATA[unboarding]]></Name>
+		<X>130</X>
+		<Y>530</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<ActiveObjectClass>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+		</ActiveObjectClass>
+		<GenericParameterSubstitute>
+			<GenericParameterSubstituteReference>
+				<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+				<ClassName>Delay</ClassName>
+				<ItemName>1412336242930</ItemName>
+			</GenericParameterSubstituteReference>
+		</GenericParameterSubstitute>
+		<Parameters>
+			<Parameter>
+				<Name><![CDATA[type]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[delayTime]]></Name>
+				<Value Class="CodeUnitValue">
+					<Code><![CDATA[triangular( 0.5, 0.8, 1 )]]></Code>
+					<Unit Class="TimeUnits">SECOND</Unit>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[capacity]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[maximumCapacity]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[entityLocation]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[pushProtocol]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[forceStatisticsCollection]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onEnter]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onAtExit]]></Name>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onExit]]></Name>
+				<Value Class="CodeValue">
+					<Code><![CDATA[if( iconUnboarding <= 0 ) {
+Unboarding.stopDelayForAll();
+}
+else{
+iconUnboarding--;
+IconPedArrival.inject(1);
+}]]></Code>
+				</Value>
+			</Parameter>
+			<Parameter>
+				<Name><![CDATA[onRemove]]></Name>
+			</Parameter>
+		</Parameters>
+		<ReplicationFlag>false</ReplicationFlag>
+		<Replication Class="CodeValue">
+			<Code><![CDATA[100]]></Code>
+		</Replication>
+		<CollectionType>ARRAY_LIST_BASED</CollectionType>
+		<InitialLocationType>XYZ</InitialLocationType>
+		<ColumnCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</ColumnCode>
+		<RowCode Class="CodeValue">
+			<Code><![CDATA[0]]></Code>
+		</RowCode>
+		<LocationNameCode Class="CodeValue">
+			<Code><![CDATA[""]]></Code>
+		</LocationNameCode>
+		<InitializationType>SPECIFIED_NUMBER</InitializationType>
+		<InitializationDatabaseTableQuery>
+			<Id>1776364186739</Id>
 			<TableReference/>
 		</InitializationDatabaseTableQuery>
 		<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>

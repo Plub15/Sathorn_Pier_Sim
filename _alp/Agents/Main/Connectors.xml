@@ -3,7 +3,7 @@
 	<Connector>
 		<Id>1775474931869</Id>
 		<Name><![CDATA[connector]]></Name>
-		<X>80</X>
+		<X>130</X>
 		<Y>450</Y>
 		<Label>
 			<X>10</X>
@@ -38,7 +38,7 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>-50</X>
+				<X>-70</X>
 				<Y>0</Y>
 			</Point>
 		</Points>
@@ -46,7 +46,7 @@
 	<Connector>
 		<Id>1775475041352</Id>
 		<Name><![CDATA[connector1]]></Name>
-		<X>380</X>
+		<X>430</X>
 		<Y>450</Y>
 		<Label>
 			<X>10</X>
@@ -89,7 +89,7 @@
 	<Connector>
 		<Id>1775482606838</Id>
 		<Name><![CDATA[connector5]]></Name>
-		<X>80</X>
+		<X>130</X>
 		<Y>350</Y>
 		<Label>
 			<X>10</X>
@@ -124,7 +124,7 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>-50</X>
+				<X>-70</X>
 				<Y>0</Y>
 			</Point>
 		</Points>
@@ -132,7 +132,7 @@
 	<Connector>
 		<Id>1775482708525</Id>
 		<Name><![CDATA[connector7]]></Name>
-		<X>600</X>
+		<X>650</X>
 		<Y>350</Y>
 		<Label>
 			<X>10</X>
@@ -175,7 +175,7 @@
 	<Connector>
 		<Id>1775483511660</Id>
 		<Name><![CDATA[connector2]]></Name>
-		<X>120</X>
+		<X>170</X>
 		<Y>450</Y>
 		<Label>
 			<X>10</X>
@@ -197,7 +197,7 @@
 		<TargetEmbeddedObjectReference>
 			<PackageName>sathorn_pier</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>pedWait</ItemName>
+			<ItemName>iconWait</ItemName>
 		</TargetEmbeddedObjectReference>
 		<TargetConnectableItemReference>
 			<PackageName>com.anylogic.libraries.pedestrian</PackageName>
@@ -218,7 +218,7 @@
 	<Connector>
 		<Id>1775483511662</Id>
 		<Name><![CDATA[connector8]]></Name>
-		<X>220</X>
+		<X>270</X>
 		<Y>450</Y>
 		<Label>
 			<X>10</X>
@@ -230,7 +230,7 @@
 		<SourceEmbeddedObjectReference>
 			<PackageName>sathorn_pier</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>pedWait</ItemName>
+			<ItemName>iconWait</ItemName>
 		</SourceEmbeddedObjectReference>
 		<SourceConnectableItemReference>
 			<PackageName>com.anylogic.libraries.pedestrian</PackageName>
@@ -261,7 +261,7 @@
 	<Connector>
 		<Id>1775484055720</Id>
 		<Name><![CDATA[connector4]]></Name>
-		<X>480</X>
+		<X>530</X>
 		<Y>450</Y>
 		<Label>
 			<X>10</X>
@@ -304,7 +304,7 @@
 	<Connector>
 		<Id>1775484116226</Id>
 		<Name><![CDATA[connector10]]></Name>
-		<X>520</X>
+		<X>570</X>
 		<Y>450</Y>
 		<Label>
 			<X>10</X>
@@ -339,11 +339,11 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>30</X>
+				<X>10</X>
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>30</X>
+				<X>10</X>
 				<Y>-60</Y>
 			</Point>
 			<Point>
@@ -359,7 +359,7 @@
 	<Connector>
 		<Id>1775486939067</Id>
 		<Name><![CDATA[connector6]]></Name>
-		<X>320</X>
+		<X>370</X>
 		<Y>350</Y>
 		<Label>
 			<X>10</X>
@@ -402,7 +402,7 @@
 	<Connector>
 		<Id>1775486941209</Id>
 		<Name><![CDATA[connector9]]></Name>
-		<X>420</X>
+		<X>470</X>
 		<Y>350</Y>
 		<Label>
 			<X>10</X>
@@ -445,7 +445,7 @@
 	<Connector>
 		<Id>1775721236278</Id>
 		<Name><![CDATA[connector11]]></Name>
-		<X>180</X>
+		<X>230</X>
 		<Y>350</Y>
 		<Label>
 			<X>10</X>
@@ -488,7 +488,7 @@
 	<Connector>
 		<Id>1775721290101</Id>
 		<Name><![CDATA[connector3]]></Name>
-		<X>220</X>
+		<X>270</X>
 		<Y>350</Y>
 		<Label>
 			<X>10</X>
@@ -529,52 +529,9 @@
 		</Points>
 	</Connector>
 	<Connector>
-		<Id>1775722557398</Id>
-		<Name><![CDATA[connector12]]></Name>
-		<X>280</X>
-		<Y>550</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>sathorn_pier</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>IconLeave</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.pedestrian</PackageName>
-			<ClassName>PedGoTo</ClassName>
-			<ItemName>in</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>sathorn_pier</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>IconPedArrival</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.pedestrian</PackageName>
-			<ClassName>PedSource</ClassName>
-			<ItemName>out</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>-250</X>
-				<Y>0</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
 		<Id>1775733570598</Id>
 		<Name><![CDATA[connector13]]></Name>
-		<X>320</X>
+		<X>270</X>
 		<Y>550</Y>
 		<Label>
 			<X>10</X>
@@ -609,7 +566,93 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>30</X>
+				<X>70</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1776364187868</Id>
+		<Name><![CDATA[connector14]]></Name>
+		<X>230</X>
+		<Y>550</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>sathorn_pier</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>IconLeave</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.pedestrian</PackageName>
+			<ClassName>PedGoTo</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>sathorn_pier</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>unboarding</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-60</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1776364187870</Id>
+		<Name><![CDATA[connector15]]></Name>
+		<X>130</X>
+		<Y>550</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>sathorn_pier</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>unboarding</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>sathorn_pier</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>IconPedArrival</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.pedestrian</PackageName>
+			<ClassName>PedSource</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-70</X>
 				<Y>0</Y>
 			</Point>
 		</Points>
