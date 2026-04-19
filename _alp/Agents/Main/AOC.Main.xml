@@ -147,7 +147,7 @@
 			<Id>1775751017223</Id>
 			<Name><![CDATA[schedule]]></Name>
 			<X>20</X>
-			<Y>370</Y>
+			<Y>385</Y>
 			<Label>
 				<X>10</X>
 				<Y>0</Y>
@@ -177,6 +177,150 @@
 				<ValueColumnReference/>
 			</IntervalsQuery>
 			<Intervals/>
+			<Exceptions/>
+		</Schedule>
+		<Schedule>
+			<Id>1776609448086</Id>
+			<Name><![CDATA[Depart_Express]]></Name>
+			<X>25</X>
+			<Y>925</Y>
+			<Label>
+				<X>10</X>
+				<Y>2</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<ValueType>double_</ValueType>
+			<UnitType>RATE</UnitType>
+			<UnitOfValue Class="RateUnits">PER_HOUR</UnitOfValue>
+			<DefaultValue>0.0</DefaultValue>
+			<RepresentationMode>intervals</RepresentationMode>
+			<RepresentationType>calendar</RepresentationType>
+			<FirstDayOfWeek>sunday</FirstDayOfWeek>
+			<TimeUnitsInterval>hours</TimeUnitsInterval>
+			<RepeatTime>86400000</RepeatTime>
+			<RepeatTimeInterval>days</RepeatTimeInterval>
+			<IsSnapTo>false</IsSnapTo>
+			<SnapTo>1775465184377</SnapTo>
+			<SnapToTimeUnits>minutes</SnapToTimeUnits>
+			<AllDayExceptionMode>false</AllDayExceptionMode>
+			<LoadFromDatabase>false</LoadFromDatabase>
+			<IntervalsQuery>
+				<Id>1776609448084</Id>
+				<TableReference/>
+				<StartColumnReference/>
+				<EndColumnReference/>
+				<ValueColumnReference/>
+			</IntervalsQuery>
+			<Intervals>
+				<Interval>
+					<Start>50400000</Start>
+					<End>61200000</End>
+					<Value>36.0</Value>
+				</Interval>
+				<Interval>
+					<Start>61200000</Start>
+					<End>68400000</End>
+					<Value>210.0</Value>
+				</Interval>
+			</Intervals>
+			<Exceptions/>
+		</Schedule>
+		<Schedule>
+			<Id>1776611833640</Id>
+			<Name><![CDATA[Arrival_Express]]></Name>
+			<X>25</X>
+			<Y>950</Y>
+			<Label>
+				<X>10</X>
+				<Y>2</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<ValueType>integer</ValueType>
+			<UnitType>NONE</UnitType>
+			<UnitOfValue Class="RateUnits">PER_HOUR</UnitOfValue>
+			<DefaultValue>0</DefaultValue>
+			<RepresentationMode>intervals</RepresentationMode>
+			<RepresentationType>calendar</RepresentationType>
+			<FirstDayOfWeek>sunday</FirstDayOfWeek>
+			<TimeUnitsInterval>hours</TimeUnitsInterval>
+			<RepeatTime>86400000</RepeatTime>
+			<RepeatTimeInterval>days</RepeatTimeInterval>
+			<IsSnapTo>false</IsSnapTo>
+			<SnapTo>1775465184377</SnapTo>
+			<SnapToTimeUnits>minutes</SnapToTimeUnits>
+			<AllDayExceptionMode>false</AllDayExceptionMode>
+			<LoadFromDatabase>false</LoadFromDatabase>
+			<IntervalsQuery>
+				<Id>1776611833638</Id>
+				<TableReference/>
+				<StartColumnReference/>
+				<EndColumnReference/>
+				<ValueColumnReference/>
+			</IntervalsQuery>
+			<Intervals>
+				<Interval>
+					<Start>50400000</Start>
+					<End>61200000</End>
+					<Value>2</Value>
+				</Interval>
+				<Interval>
+					<Start>61200000</Start>
+					<End>68400000</End>
+					<Value>35</Value>
+				</Interval>
+			</Intervals>
+			<Exceptions/>
+		</Schedule>
+		<Schedule>
+			<Id>1776611995712</Id>
+			<Name><![CDATA[Arrival_IconSiam]]></Name>
+			<X>185</X>
+			<Y>485</Y>
+			<Label>
+				<X>10</X>
+				<Y>0</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<ValueType>integer</ValueType>
+			<UnitType>NONE</UnitType>
+			<UnitOfValue Class="RateUnits">PER_HOUR</UnitOfValue>
+			<DefaultValue>0</DefaultValue>
+			<RepresentationMode>intervals</RepresentationMode>
+			<RepresentationType>calendar</RepresentationType>
+			<FirstDayOfWeek>sunday</FirstDayOfWeek>
+			<TimeUnitsInterval>hours</TimeUnitsInterval>
+			<RepeatTime>86400000</RepeatTime>
+			<RepeatTimeInterval>days</RepeatTimeInterval>
+			<IsSnapTo>false</IsSnapTo>
+			<SnapTo>1775465184377</SnapTo>
+			<SnapToTimeUnits>minutes</SnapToTimeUnits>
+			<AllDayExceptionMode>false</AllDayExceptionMode>
+			<LoadFromDatabase>false</LoadFromDatabase>
+			<IntervalsQuery>
+				<Id>1776611995710</Id>
+				<TableReference/>
+				<StartColumnReference/>
+				<EndColumnReference/>
+				<ValueColumnReference/>
+			</IntervalsQuery>
+			<Intervals>
+				<Interval>
+					<Start>50400000</Start>
+					<End>61200000</End>
+					<Value>35</Value>
+				</Interval>
+				<Interval>
+					<Start>61200000</Start>
+					<End>68400000</End>
+					<Value>45</Value>
+				</Interval>
+			</Intervals>
 			<Exceptions/>
 		</Schedule>
 	</Schedules>

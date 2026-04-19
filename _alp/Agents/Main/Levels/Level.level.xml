@@ -305,7 +305,7 @@
 			<Y>0</Y>
 		</Label>
 		<PublicFlag>true</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
+		<PresentationFlag>false</PresentationFlag>
 		<ShowLabel>false</ShowLabel>
 		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 		<Z>0</Z>
@@ -316,7 +316,7 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>30</X>
+				<X>40</X>
 				<Y>0</Y>
 			</Point>
 		</Points>
@@ -324,14 +324,14 @@
 	<TargetLine>
 		<Id>1775474790357</Id>
 		<Name><![CDATA[iconAri]]></Name>
-		<X>220</X>
+		<X>215</X>
 		<Y>100</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
 		</Label>
 		<PublicFlag>true</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
+		<PresentationFlag>false</PresentationFlag>
 		<ShowLabel>false</ShowLabel>
 		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 		<Z>0</Z>
@@ -342,7 +342,7 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>30</X>
+				<X>40</X>
 				<Y>0</Y>
 			</Point>
 		</Points>
@@ -700,9 +700,9 @@
 	</PointNode>
 	<RectangleNode>
 		<Id>1775483888336</Id>
-		<Name><![CDATA[node]]></Name>
+		<Name><![CDATA[iconWaitingArea]]></Name>
 		<X>170</X>
-		<Y>110</Y>
+		<Y>105</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -805,7 +805,7 @@
 		<Sloped>false</Sloped>
 		<Slope>
 			<Id>1775483888334</Id>
-			<Name><![CDATA[node]]></Name>
+			<Name><![CDATA[iconWaitingArea]]></Name>
 			<X>0</X>
 			<Y>10</Y>
 			<PublicFlag>false</PublicFlag>
@@ -819,7 +819,7 @@
 			<SlopeType>angle</SlopeType>
 		</Slope>
 		<Width>40</Width>
-		<Height>110</Height>
+		<Height>115</Height>
 		<Rotation>0.0</Rotation>
 	</RectangleNode>
 	<Wall>
@@ -927,35 +927,779 @@
 				<Z>0</Z>
 			</Point>
 			<Point>
-				<X>537</X>
+				<X>15</X>
 				<Y>0</Y>
 				<Z>0</Z>
 			</Point>
 			<Point>
-				<X>512</X>
+				<X>-10</X>
 				<Y>0</Y>
 				<Z>0</Z>
 			</Point>
 			<Point>
-				<X>537</X>
-				<Y>25</Y>
+				<X>40</X>
+				<Y>0</Y>
 				<Z>0</Z>
 			</Point>
 			<Point>
-				<X>537</X>
-				<Y>200</Y>
+				<X>35</X>
+				<Y>0</Y>
 				<Z>0</Z>
 			</Point>
 			<Point>
-				<X>537</X>
-				<Y>175</Y>
+				<X>10</X>
+				<Y>0</Y>
 				<Z>0</Z>
 			</Point>
 			<Point>
-				<X>567</X>
-				<Y>200</Y>
+				<X>65</X>
+				<Y>0</Y>
 				<Z>0</Z>
 			</Point>
 		</Points>
 	</Wall>
+	<Wall>
+		<Id>1776607217720</Id>
+		<Name><![CDATA[wall1]]></Name>
+		<X>420</X>
+		<Y>90</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<LineColor>-65536</LineColor>
+		<LineWidth>2</LineWidth>
+		<LineMaterial>null</LineMaterial>
+		<FillingType>HATCHED_AREA</FillingType>
+		<ZHeight>20</ZHeight>
+		<Closed>false</Closed>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>15</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>25</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>30</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>5</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>70</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+		</Points>
+	</Wall>
+	<Wall>
+		<Id>1776607233234</Id>
+		<Name><![CDATA[wall2]]></Name>
+		<X>620</X>
+		<Y>90</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<LineColor>-65536</LineColor>
+		<LineWidth>2</LineWidth>
+		<LineMaterial>null</LineMaterial>
+		<FillingType>HATCHED_AREA</FillingType>
+		<ZHeight>20</ZHeight>
+		<Closed>false</Closed>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>15</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>25</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>178</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>153</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>177.876</X>
+				<Y>25</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>177</X>
+				<Y>201</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>177.124</X>
+				<Y>176</Y>
+				<Z>0</Z>
+			</Point>
+			<Point>
+				<X>157</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Point>
+		</Points>
+	</Wall>
+	<Pathway>
+		<Id>1776607633669</Id>
+		<Name><![CDATA[path1]]></Name>
+		<X>220</X>
+		<Y>240</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>false</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<LineColor>-16744448</LineColor>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>0</X>
+				<Y>-10</Y>
+			</Point>
+			<Point>
+				<X>0</X>
+				<Y>10</Y>
+			</Point>
+			<Point>
+				<X>30</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>30</X>
+				<Y>-10</Y>
+			</Point>
+			<Point>
+				<X>30</X>
+				<Y>10</Y>
+			</Point>
+		</Points>
+	</Pathway>
+	<RectangleNode>
+		<Id>1776607812170</Id>
+		<Name><![CDATA[expressBoatDock]]></Name>
+		<X>310</X>
+		<Y>60</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<EmbeddedObject>
+			<Id>1776607812178</Id>
+			<ActiveObjectClass>
+				<PackageName>com.anylogic.libraries.modules.markup_descriptors</PackageName>
+				<ClassName>AreaNodeDescriptor</ClassName>
+			</ActiveObjectClass>
+			<GenericParameterSubstitute>
+				<GenericParameterSubstituteReference>
+					<PackageName>com.anylogic.libraries.modules.markup_descriptors</PackageName>
+					<ClassName>AreaNodeDescriptor</ClassName>
+					<ItemName>1574694148121</ItemName>
+				</GenericParameterSubstituteReference>
+			</GenericParameterSubstitute>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[appliedClass]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[speedRestricted]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[maxSpeed]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[accessRestricted]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[accessRestrictionType]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[accessRestrictionCondition]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[capacity]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[throughput]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[schedule]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[avoidedIfClosed]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onEnter]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onEnterDenied]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onExit]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onOpen]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onClose]]></Name>
+				</Parameter>
+			</Parameters>
+			<ReplicationFlag>false</ReplicationFlag>
+			<Replication Class="CodeValue">
+				<Code><![CDATA[100]]></Code>
+			</Replication>
+			<CollectionType>ARRAY_LIST_BASED</CollectionType>
+			<InitialLocationType>XYZ</InitialLocationType>
+			<ColumnCode Class="CodeValue">
+				<Code><![CDATA[0]]></Code>
+			</ColumnCode>
+			<RowCode Class="CodeValue">
+				<Code><![CDATA[0]]></Code>
+			</RowCode>
+			<LocationNameCode Class="CodeValue">
+				<Code><![CDATA[""]]></Code>
+			</LocationNameCode>
+			<InitializationType>SPECIFIED_NUMBER</InitializationType>
+			<InitializationDatabaseTableQuery>
+				<Id>1776607812177</Id>
+				<TableReference/>
+			</InitializationDatabaseTableQuery>
+			<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+			<QuantityColumn/>
+		</EmbeddedObject>
+		<LineColor>-16776961</LineColor>
+		<FillColor/>
+		<LineWidth>1</LineWidth>
+		<LineMaterial>null</LineMaterial>
+		<FillMaterial>null</FillMaterial>
+		<LineStyle>DASHED</LineStyle>
+		<AttractorsLayout>random</AttractorsLayout>
+		<Presentation>
+			<Attractor>
+				<Id>1776607812173</Id>
+				<Name><![CDATA[ExpressBoatAttractor]]></Name>
+				<X>357</X>
+				<Y>74</Y>
+				<Label>
+					<X>10</X>
+					<Y>0</Y>
+				</Label>
+				<PublicFlag>true</PublicFlag>
+				<PresentationFlag>true</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Z>0</Z>
+				<Rotation>0.0</Rotation>
+			</Attractor>
+		</Presentation>
+		<Sloped>false</Sloped>
+		<Slope>
+			<Id>1776607812168</Id>
+			<Name><![CDATA[expressBoatDock]]></Name>
+			<X>0</X>
+			<Y>10</Y>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<Dx>20</Dx>
+			<Dy>0</Dy>
+			<Dz>0</Dz>
+			<AngleX>30</AngleX>
+			<AngleZ>0</AngleZ>
+			<SlopeType>angle</SlopeType>
+		</Slope>
+		<Width>94</Width>
+		<Height>27</Height>
+		<Rotation>0.0</Rotation>
+	</RectangleNode>
+	<PointNode>
+		<Id>1776608256206</Id>
+		<Name><![CDATA[expressPier]]></Name>
+		<X>400</X>
+		<Y>-200</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>false</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<FakeNode>false</FakeNode>
+		<Lock>false</Lock>
+		<Color>-14774017</Color>
+		<Radius>10</Radius>
+		<SpeedLimit>false</SpeedLimit>
+		<SpeedLimitValue Class="UnitValue">
+			<Value Class="Double">10</Value>
+			<Unit Class="SpeedUnits">MPS</Unit>
+		</SpeedLimitValue>
+	</PointNode>
+	<TargetLine>
+		<Id>1776608382414</Id>
+		<Name><![CDATA[expressDep]]></Name>
+		<X>310</X>
+		<Y>95</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>false</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<LineColor>-256</LineColor>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>45</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</TargetLine>
+	<TargetLine>
+		<Id>1776608418274</Id>
+		<Name><![CDATA[expressAri]]></Name>
+		<X>360</X>
+		<Y>95</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>false</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<LineColor>-256</LineColor>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>45</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</TargetLine>
+	<Pathway>
+		<Id>1776608730609</Id>
+		<Name><![CDATA[path2]]></Name>
+		<X>385</X>
+		<Y>115</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>false</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<LineColor>-16744448</LineColor>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>10</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-10</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>0</X>
+				<Y>30</Y>
+			</Point>
+			<Point>
+				<X>10</X>
+				<Y>30</Y>
+			</Point>
+			<Point>
+				<X>-10</X>
+				<Y>30</Y>
+			</Point>
+		</Points>
+	</Pathway>
+	<ServiceWithLine>
+		<ServiceColor>-16744448</ServiceColor>
+		<Id>1776610095113</Id>
+		<Name><![CDATA[expressTicket]]></Name>
+		<X>455.831</X>
+		<Y>198</Y>
+		<Label>
+			<X>121.338</X>
+			<Y>-2</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Presentation>
+			<PolygonNode>
+				<Id>1776610095107</Id>
+				<Name><![CDATA[waitingArea]]></Name>
+				<X>0</X>
+				<Y>0</Y>
+				<Label>
+					<X>10</X>
+					<Y>0</Y>
+				</Label>
+				<PublicFlag>true</PublicFlag>
+				<PresentationFlag>true</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Z>0</Z>
+				<EmbeddedObject>
+					<Id>1776610095111</Id>
+					<ActiveObjectClass>
+						<PackageName>com.anylogic.libraries.modules.markup_descriptors</PackageName>
+						<ClassName>AreaNodeDescriptor</ClassName>
+					</ActiveObjectClass>
+					<Parameters/>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialLocationType>XYZ</InitialLocationType>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<Id>1776610095110</Id>
+						<TableReference/>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn/>
+				</EmbeddedObject>
+				<LineColor>-16744448</LineColor>
+				<FillColor/>
+				<LineWidth>2</LineWidth>
+				<LineMaterial>null</LineMaterial>
+				<FillMaterial>null</FillMaterial>
+				<LineStyle>DASHED</LineStyle>
+				<AttractorsLayout>random</AttractorsLayout>
+				<Sloped>false</Sloped>
+				<Slope>
+					<Id>1776610095105</Id>
+					<Name><![CDATA[waitingArea]]></Name>
+					<X>0</X>
+					<Y>10</Y>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Dx>20</Dx>
+					<Dy>0</Dy>
+					<Dz>0</Dz>
+					<AngleX>30</AngleX>
+					<AngleZ>0</AngleZ>
+					<SlopeType>angle</SlopeType>
+				</Slope>
+				<Points>
+					<Point>
+						<X>0</X>
+						<Y>0</Y>
+					</Point>
+					<Point>
+						<X>0</X>
+						<Y>70</Y>
+					</Point>
+					<Point>
+						<X>20</X>
+						<Y>70</Y>
+					</Point>
+					<Point>
+						<X>20</X>
+						<Y>30</Y>
+					</Point>
+					<Point>
+						<X>70</X>
+						<Y>30</Y>
+					</Point>
+					<Point>
+						<X>70</X>
+						<Y>0</Y>
+					</Point>
+				</Points>
+			</PolygonNode>
+			<QueueLine>
+				<Id>1776610095116</Id>
+				<Name><![CDATA[queueLine1]]></Name>
+				<X>515</X>
+				<Y>239</Y>
+				<Label>
+					<X>10</X>
+					<Y>0</Y>
+				</Label>
+				<PublicFlag>true</PublicFlag>
+				<PresentationFlag>true</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Z>0</Z>
+				<Reversed>false</Reversed>
+				<LimitedCapacity>false</LimitedCapacity>
+				<Capacity>10</Capacity>
+				<Points>
+					<Point>
+						<X>0</X>
+						<Y>0</Y>
+					</Point>
+					<Point>
+						<X>-10.748</X>
+						<Y>-22.572</Y>
+					</Point>
+					<Point>
+						<X>0</X>
+						<Y>-25</Y>
+					</Point>
+					<Point>
+						<X>0</X>
+						<Y>-42</Y>
+					</Point>
+					<Point>
+						<X>0</X>
+						<Y>-17</Y>
+					</Point>
+					<Point>
+						<X>-25</X>
+						<Y>-42</Y>
+					</Point>
+					<Point>
+						<X>-20</X>
+						<Y>-42</Y>
+					</Point>
+					<Point>
+						<X>5</X>
+						<Y>-42</Y>
+					</Point>
+					<Point>
+						<X>-9.251660490191306</X>
+						<Y>-19.428487029401744</Y>
+					</Point>
+				</Points>
+				<ExceededQueuePolicy>EXTEND_QUEUE_TO_THE_FREE_SPACE</ExceededQueuePolicy>
+			</QueueLine>
+			<ServicePoint>
+				<Id>1776610095119</Id>
+				<Name><![CDATA[servicePoint1]]></Name>
+				<X>484</X>
+				<Y>197</Y>
+				<Label>
+					<X>10</X>
+					<Y>0</Y>
+				</Label>
+				<PublicFlag>true</PublicFlag>
+				<PresentationFlag>true</PresentationFlag>
+				<ShowLabel>false</ShowLabel>
+				<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+				<Z>0</Z>
+				<OverrideQueueChoicePolicy>false</OverrideQueueChoicePolicy>
+				<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+				<Rotation>180</Rotation>
+			</ServicePoint>
+		</Presentation>
+		<Z>0</Z>
+		<Type><![CDATA[POINT]]></Type>
+		<QueueType>LINE</QueueType>
+		<Bidirectional>false</Bidirectional>
+		<WaitingAreaEnabled>false</WaitingAreaEnabled>
+		<QueueColor>-16744448</QueueColor>
+		<ReverseQueueColor>-65281</ReverseQueueColor>
+		<GroupBehaviorMode>SAME_FOR_ALL_GROUPS</GroupBehaviorMode>
+		<GroupBehavior>ALL_MEMBERS_INDIVIDUALLY</GroupBehavior>
+		<WaitForExit>false</WaitForExit>
+		<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
+	</ServiceWithLine>
+	<RectangleNode>
+		<Id>1776610239217</Id>
+		<Name><![CDATA[expressWaitingArea]]></Name>
+		<X>300</X>
+		<Y>100</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<Z>0</Z>
+		<EmbeddedObject>
+			<Id>1776610239222</Id>
+			<ActiveObjectClass>
+				<PackageName>com.anylogic.libraries.modules.markup_descriptors</PackageName>
+				<ClassName>AreaNodeDescriptor</ClassName>
+			</ActiveObjectClass>
+			<GenericParameterSubstitute>
+				<GenericParameterSubstituteReference>
+					<PackageName>com.anylogic.libraries.modules.markup_descriptors</PackageName>
+					<ClassName>AreaNodeDescriptor</ClassName>
+					<ItemName>1574694148121</ItemName>
+				</GenericParameterSubstituteReference>
+			</GenericParameterSubstitute>
+			<Parameters>
+				<Parameter>
+					<Name><![CDATA[appliedClass]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[speedRestricted]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[maxSpeed]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[accessRestricted]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[accessRestrictionType]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[accessRestrictionCondition]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[capacity]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[throughput]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[schedule]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[avoidedIfClosed]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onEnter]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onEnterDenied]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onExit]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onOpen]]></Name>
+				</Parameter>
+				<Parameter>
+					<Name><![CDATA[onClose]]></Name>
+				</Parameter>
+			</Parameters>
+			<ReplicationFlag>false</ReplicationFlag>
+			<Replication Class="CodeValue">
+				<Code><![CDATA[100]]></Code>
+			</Replication>
+			<CollectionType>ARRAY_LIST_BASED</CollectionType>
+			<InitialLocationType>XYZ</InitialLocationType>
+			<ColumnCode Class="CodeValue">
+				<Code><![CDATA[0]]></Code>
+			</ColumnCode>
+			<RowCode Class="CodeValue">
+				<Code><![CDATA[0]]></Code>
+			</RowCode>
+			<LocationNameCode Class="CodeValue">
+				<Code><![CDATA[""]]></Code>
+			</LocationNameCode>
+			<InitializationType>SPECIFIED_NUMBER</InitializationType>
+			<InitializationDatabaseTableQuery>
+				<Id>1776610239221</Id>
+				<TableReference/>
+			</InitializationDatabaseTableQuery>
+			<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+			<QuantityColumn/>
+		</EmbeddedObject>
+		<LineColor>-14774017</LineColor>
+		<FillColor/>
+		<LineWidth>1</LineWidth>
+		<LineMaterial>null</LineMaterial>
+		<FillMaterial>null</FillMaterial>
+		<LineStyle>DASHED</LineStyle>
+		<AttractorsLayout>arranged</AttractorsLayout>
+		<Sloped>false</Sloped>
+		<Slope>
+			<Id>1776610239215</Id>
+			<Name><![CDATA[expressWaitingArea]]></Name>
+			<X>0</X>
+			<Y>10</Y>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<Dx>20</Dx>
+			<Dy>0</Dy>
+			<Dz>0</Dz>
+			<AngleX>30</AngleX>
+			<AngleZ>0</AngleZ>
+			<SlopeType>angle</SlopeType>
+		</Slope>
+		<Width>55</Width>
+		<Height>75</Height>
+		<Rotation>0.0</Rotation>
+	</RectangleNode>
 </Presentation>
