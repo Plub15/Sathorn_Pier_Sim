@@ -695,7 +695,8 @@
 				<Name><![CDATA[onEnter]]></Name>
 				<Value Class="CodeValue">
 					<Code><![CDATA[iconBoatAtDock = true;
-iconBoarded = 0;]]></Code>
+iconBoarded = 0;
+iconWait.freeAll();]]></Code>
 				</Value>
 			</Parameter>
 			<Parameter>
@@ -2398,7 +2399,8 @@ IconPedArrival.inject(1);
 				<Name><![CDATA[onEnter]]></Name>
 				<Value Class="CodeValue">
 					<Code><![CDATA[expressBoatAtDock = true;
-expressBoarded = 0;]]></Code>
+expressBoarded = 0;
+expressWait.freeAll();]]></Code>
 				</Value>
 			</Parameter>
 			<Parameter>
@@ -4475,7 +4477,8 @@ ExpressPedArrival.inject(1);
 				<Name><![CDATA[onEnter]]></Name>
 				<Value Class="CodeValue">
 					<Code><![CDATA[tsbBoatAtDock = true;
-tsbBoarded = 0;]]></Code>
+tsbBoarded = 0;
+tsbWait.freeAll();]]></Code>
 				</Value>
 			</Parameter>
 			<Parameter>
