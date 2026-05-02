@@ -456,13 +456,61 @@
 			<Intervals>
 				<Interval>
 					<Start>50400000</Start>
-					<End>61200000</End>
+					<End>59400000</End>
+					<Value>60</Value>
+				</Interval>
+				<Interval>
+					<Start>59400000</Start>
+					<End>68400000</End>
 					<Value>20</Value>
+				</Interval>
+			</Intervals>
+			<Exceptions/>
+		</Schedule>
+		<Schedule>
+			<Id>1777022815275</Id>
+			<Name><![CDATA[tsbBoatSchedule]]></Name>
+			<X>160</X>
+			<Y>1730</Y>
+			<Label>
+				<X>10</X>
+				<Y>0</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<ValueType>integer</ValueType>
+			<UnitType>NONE</UnitType>
+			<UnitOfValue Class="RateUnits">PER_HOUR</UnitOfValue>
+			<DefaultValue>0</DefaultValue>
+			<RepresentationMode>intervals</RepresentationMode>
+			<RepresentationType>calendar</RepresentationType>
+			<FirstDayOfWeek>sunday</FirstDayOfWeek>
+			<TimeUnitsInterval>hours</TimeUnitsInterval>
+			<RepeatTime>86400000</RepeatTime>
+			<RepeatTimeInterval>days</RepeatTimeInterval>
+			<IsSnapTo>false</IsSnapTo>
+			<SnapTo>1775465184377</SnapTo>
+			<SnapToTimeUnits>minutes</SnapToTimeUnits>
+			<AllDayExceptionMode>false</AllDayExceptionMode>
+			<LoadFromDatabase>false</LoadFromDatabase>
+			<IntervalsQuery>
+				<Id>1777022815273</Id>
+				<TableReference/>
+				<StartColumnReference/>
+				<EndColumnReference/>
+				<ValueColumnReference/>
+			</IntervalsQuery>
+			<Intervals>
+				<Interval>
+					<Start>50400000</Start>
+					<End>61200000</End>
+					<Value>60</Value>
 				</Interval>
 				<Interval>
 					<Start>61200000</Start>
 					<End>68400000</End>
-					<Value>15</Value>
+					<Value>30</Value>
 				</Interval>
 			</Intervals>
 			<Exceptions/>

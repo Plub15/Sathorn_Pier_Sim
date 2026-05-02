@@ -414,7 +414,7 @@
 			<Parameter>
 				<Name><![CDATA[interarrivalTime]]></Name>
 				<Value Class="CodeUnitValue">
-					<Code><![CDATA[20]]></Code>
+					<Code><![CDATA[(int) uniform(30, 35)]]></Code>
 					<Unit Class="TimeUnits">MINUTE</Unit>
 				</Value>
 			</Parameter>
@@ -2119,7 +2119,7 @@ IconPedArrival.inject(1);
 			<Parameter>
 				<Name><![CDATA[interarrivalTime]]></Name>
 				<Value Class="CodeUnitValue">
-					<Code><![CDATA[(int) triangular(max(13, expressBoatSchedule.getValue()*0.8),15,expressBoatSchedule.getValue()*1.1)]]></Code>
+					<Code><![CDATA[(int) triangular(max(13, expressBoatSchedule.getValue()*0.8),expressBoatSchedule.getValue(),expressBoatSchedule.getValue()*1.1)]]></Code>
 					<Unit Class="TimeUnits">MINUTE</Unit>
 				</Value>
 			</Parameter>
@@ -4197,7 +4197,7 @@ ExpressPedArrival.inject(1);
 			<Parameter>
 				<Name><![CDATA[interarrivalTime]]></Name>
 				<Value Class="CodeUnitValue">
-					<Code><![CDATA[triangular(15, 18, 30)]]></Code>
+					<Code><![CDATA[(int) triangular(max(13, tsbBoatSchedule.getValue()*0.8),tsbBoatSchedule.getValue(),tsbBoatSchedule.getValue()*1.1)]]></Code>
 					<Unit Class="TimeUnits">MINUTE</Unit>
 				</Value>
 			</Parameter>
