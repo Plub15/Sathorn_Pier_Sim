@@ -426,7 +426,7 @@
 			<Y>1340</Y>
 			<Label>
 				<X>10</X>
-				<Y>2</Y>
+				<Y>0</Y>
 			</Label>
 			<PublicFlag>false</PublicFlag>
 			<PresentationFlag>true</PresentationFlag>
@@ -457,10 +457,10 @@
 				<Interval>
 					<Start>50400000</Start>
 					<End>59400000</End>
-					<Value>60</Value>
+					<Value>30</Value>
 				</Interval>
 				<Interval>
-					<Start>59400000</Start>
+					<Start>59460000</Start>
 					<End>68400000</End>
 					<Value>20</Value>
 				</Interval>
@@ -505,7 +505,7 @@
 				<Interval>
 					<Start>50400000</Start>
 					<End>61200000</End>
-					<Value>60</Value>
+					<Value>30</Value>
 				</Interval>
 				<Interval>
 					<Start>61200000</Start>
